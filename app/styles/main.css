@@ -1,0 +1,12 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contacts > .contact > .body {
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
