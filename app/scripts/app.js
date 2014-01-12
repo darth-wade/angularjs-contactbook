@@ -12,7 +12,12 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: '/views/contacts.html',
+        templateUrl: 'views/contacts.html',
+        controller: 'ContactsCtrl'
+      })
+      .state('gh-pages', {
+        url: '/angularjs-contactbook',
+        templateUrl: 'views/contacts.html',
         controller: 'ContactsCtrl'
       });
   });

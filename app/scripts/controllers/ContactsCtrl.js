@@ -40,7 +40,7 @@
     // opens add/edit contact modal form
     var openContactForm = function(initialData) {
       var modalInstance = $modal.open({
-        templateUrl: '/views/partials/modals/contact-modal-form.html',
+        templateUrl: 'views/partials/modals/contact-modal-form.html',
         controller: 'ContactModalFormCtrl',
         resolve: {
           contact: function () {
