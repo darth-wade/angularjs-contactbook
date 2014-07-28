@@ -17,7 +17,7 @@ To run development server, use:
     grunt serve
 
 To run production server, use:
-Try it on gh-pages http://darth-wade.github.io/angularjs-contactbook/
+Try it on gh-pages http://darthwade.github.io/angularjs-contactbook/
 
     grunt serve:dist
 
